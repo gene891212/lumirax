@@ -2,48 +2,30 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "首頁"
 url = "/"
 weight = 1
+
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 4
+
+[[main]]
+name = "Authors"
+url = "/authors"
+weight = 5
 
 [[main]]
 name = "About"
 url = "/about"
-weight = 2
+weight = 6
 
 [[main]]
-name = "Elements"
-url = "/elements"
-weight = 3
-
-[[main]]
-weight = 4
-name = "Pages"
-
-[[main]]
-parent = "Pages"
-name = "Blog"
-url = "/blog"
-
-[[main]]
-parent = "Pages"
-name = "Contact"
-url = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+name = "News"
+url = "/news"
+weight = 7
 
 
 # footer menu
