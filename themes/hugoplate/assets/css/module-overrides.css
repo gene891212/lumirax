@@ -38,7 +38,7 @@
   @apply text-text-dark dark:text-darkmode-text-dark px-8 !text-lg;
 }
 .tab-nav-item.active {
-  @apply border-dark dark:border-darkmode-primary;
+  @apply border-primary dark:border-darkmode-primary;
 }
 
 .tab-content-panel {
