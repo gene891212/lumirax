@@ -7,14 +7,34 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "新聞"
+name = "最新消息"
+url = "/news"
+weight = 2
+
+[[main]]
+name = "SpectraSense技術"
+url = "/news"
+weight = 3
+
+[[main]]
+name = "InsightModel技術"
 url = "/news"
 weight = 4
 
 [[main]]
+name = "產品"
+url = "/news"
+weight = 5
+
+[[main]]
+name = "解決方案"
+url = "/news"
+weight = 6
+
+[[main]]
 name = "關於我們"
 url = "/about"
-weight = 6
+weight = 7
 
 
 # footer menu
