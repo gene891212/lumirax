@@ -3,7 +3,7 @@
 banner:
   title: "SpectraSense"
   content: "精準透視、秒速掃描<br/>還原最真實的「表面+透視」結構，看見不可見的真實"
-  image: "/images/banner.jpeg"
+  image: "/images/wave_transparent_v2.png"
   button:
     enable: true
     label: "了解更多"
@@ -14,13 +14,13 @@ features:
   - title: "InsightModel"
     image: "/images/service-1.jpeg"
     content: "導入數據，精準洞察<br/>用AI分析材料，將結構轉為可見的真相"
-    bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+    # bulletpoints:
+    #   - "10+ Pre-build pages"
+    #   - "95+ Google Pagespeed Score"
+    #   - "Build with Hugo and TailwindCSS for easy and customizable styling"
+    #   - "Fully responsive on all devices"
+    #   - "SEO-optimized for better search engine rankings"
+    #   - "**Open-source and free** for personal and commercial use"
     button:
       enable: true
       label: "了解更多"

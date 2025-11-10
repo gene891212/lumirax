@@ -8,14 +8,14 @@
         {{ $bannerImage = resources.Get . }}
       {{ end }}
     {{ end }}
-    <section class="section py-24 md:py-32 lg:py-40 bg-cover bg-center bg-no-repeat relative min-h-[400px] md:min-h-[500px] lg:min-h-[600px]" {{ if $bannerImage }}style="background-image: url('{{ $bannerImage.RelPermalink }}');"{{ end }}>
+    <section class="section pt-14 pb-24 md:pb-32 lg:pb-40 bg-cover bg-center bg-no-repeat relative min-h-[700px] md:min-h-[500px] lg:min-h-[1000px]" {{ if $bannerImage }}style="background-image: url('{{ $bannerImage.RelPermalink }}');"{{ end }}>
       <div class="absolute inset-0 bg-black/40"></div>
-      <div class="container relative z-10 h-full flex items-center justify-center">
+      <div class="container relative z-10 h-full flex items-start justify-center">
         <div class="w-full max-w-4xl px-4 text-center">
           <h1 class="mb-6 text-h2 lg:text-h1 text-white drop-shadow-lg">
             {{ .title | markdownify }}
           </h1>
-          <p class="mb-8 text-lg lg:text-xl text-white drop-shadow-md">
+          <p class="mb-12 text-lg lg:text-xl text-white drop-shadow-md">
             {{ .content | markdownify }}
           </p>
           {{ with .button }}
@@ -47,46 +47,6 @@
       {{ end }}
     {{ end }}
     <section class="section-sm bg-cover bg-center bg-no-repeat relative" {{ if $featureImage }}style="background-image: url('{{ $featureImage.RelPermalink }}');"{{ end }}>
-      <div class="absolute inset-0 bg-white/50 dark:bg-darkmode-body/80"></div>
-      <div class="container relative z-10">
-        <div class="row items-center justify-between">
-          <div
-            class="mb:md-0 {{ if (modBool $i 2) }}
-              md:order-2
-            {{ end }} md:col-5 mb-6">
-          </div>
-          <div
-            class="{{ if (modBool $i 2) }}
-              md:order-1
-            {{ end }} md:col-7 lg:col-6">
-            <h2 class="mb-4">
-              {{ .title | markdownify }}
-            </h2>
-            <p class="mb-8 text-lg">
-              {{ .content | markdownify }}
-            </p>
-            <ul>
-              {{ range .bulletpoints }}
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  {{ . | markdownify }}
-                </li>
-              {{ end }}
-            </ul>
-            {{ with .button }}
-              {{ if .enable }}
-                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
-                  {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
-              {{ end }}
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-sm bg-cover bg-center bg-no-repeat relative" {{ if $featureImage }}style="background-image: url('{{ $featureImage.RelPermalink }}');"{{ end }}>
       {{ if $featureImage }}
         <div class="absolute inset-0 bg-white/30 dark:bg-darkmode-body/70"></div>
       {{ end }}
@@ -100,7 +60,7 @@
           <div
             class="{{ if (modBool $i 2) }}
               md:order-1
-            {{ end }} md:col-7 lg:col-6">
+            {{ end }} md:col-7 lg:col-5">
             <div class="bg-white/50 dark:bg-darkmode-body/90 p-8 rounded-lg backdrop-blur-sm">
               <h2 class="mb-4">
                 {{ .title | markdownify }}

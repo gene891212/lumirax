@@ -39,11 +39,93 @@ weight = 7
 
 # footer menu
 [[footer]]
+name = "技術"
+weight = 1
+hasChildren = true
+
+[[footer]]
+name = "SpectraSense"
+parent = "技術"
+url = "/spectrasense"
+weight = 1
+
+[[footer]]
+name = "InsightModel"
+parent = "技術"
+url = "/insightmodel"
+weight = 2
+
+[[footer]]
+name = "產品"
+weight = 2
+hasChildren = true
+
+[[footer]]
+name = "SpectraSense Ultra"
+parent = "產品"
+url = "/spectrasense-ultra"
+weight = 1
+
+[[footer]]
+name = "SpectraSense Pro"
+parent = "產品"
+url = "/spectrasense-pro"
+weight = 2
+
+[[footer]]
+name = "SpectraSense Lite"
+parent = "產品"
+url = "/spectrasense-lite"
+weight = 3
+
+[[footer]]
+name = "InsightHub"
+parent = "產品"
+url = "/insighthub"
+weight = 4
+
+[[footer]]
+name = "解決方案"
+weight = 3
+hasChildren = true
+
+[[footer]]
+name = "工業檢測"
+parent = "解決方案"
+url = "/industrial-inspection"
+weight = 1
+
+[[footer]]
+name = "關於洸研"
+weight = 4
+hasChildren = true
+
+[[footer]]
 name = "關於我們"
+parent = "關於洸研"
 url = "/about"
 weight = 1
 
 [[footer]]
-name = "隱私政策"
+name = "最新消息"
+parent = "關於洸研"
+url = "/news"
+weight = 2
+
+[[footer]]
+name = "隱私權政策"
+parent = "關於洸研"
 url = "/privacy-policy"
 weight = 3
+
+[[footer]]
+name = "人才招募"
+parent = "關於洸研"
+url = "/careers"
+weight = 4
+
+[[footer]]
+name = "聯絡我們"
+parent = "關於洸研"
+url = "/contact"
+weight = 5
