@@ -46,7 +46,7 @@
         {{ $featureImage = resources.Get . }}
       {{ end }}
     {{ end }}
-    <section class="section-sm bg-cover bg-center bg-no-repeat relative" {{ if $featureImage }}style="background-image: url('{{ $featureImage.RelPermalink }}');"{{ end }}>
+    <section class="section-sm py-14 py-24 md:py-32 lg:py-40 bg-cover bg-center bg-no-repeat relative" {{ if $featureImage }}style="background-image: url('{{ $featureImage.RelPermalink }}');"{{ end }}>
       {{ if $featureImage }}
         <div class="absolute inset-0 bg-white/30 dark:bg-darkmode-body/70"></div>
       {{ end }}
@@ -93,7 +93,7 @@
   <!-- /Features -->
 
   <!-- Testimonials -->
-  {{ with site.GetPage "sections/testimonial" }}
+  <!-- {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
       <section class="section">
         <div class="container">
@@ -153,6 +153,6 @@
         </div>
       </section>
     {{ end }}
-  {{ end }}
+  {{ end }} -->
   <!-- /Testimonials -->
 {{ end }}
