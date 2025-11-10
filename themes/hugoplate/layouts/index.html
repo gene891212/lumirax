@@ -8,14 +8,14 @@
         {{ $bannerImage = resources.Get . }}
       {{ end }}
     {{ end }}
-    <section class="section pt-14 pb-24 md:pb-32 lg:pb-40 bg-cover bg-center bg-no-repeat relative min-h-[700px] md:min-h-[500px] lg:min-h-[1000px]" {{ if $bannerImage }}style="background-image: url('{{ $bannerImage.RelPermalink }}');"{{ end }}>
-      <div class="absolute inset-0 bg-black/40"></div>
-      <div class="container relative z-10 h-full flex items-start justify-center">
-        <div class="w-full max-w-4xl px-4 text-center">
-          <h1 class="mb-6 text-h2 lg:text-h1 text-white drop-shadow-lg">
+    <section class="flex flex-col w-full" >
+      <!-- Text Section (1/3) -->
+      <div class="flex items-center justify-center dark:from-darkmode-body dark:to-darkmode-light w-full" style="height: 40%;">
+        <div class="w-full max-w-4xl mx-auto px-4 text-center">
+          <h1 class="mb-4 text-h2 lg:text-h1 text-text-dark dark:text-darkmode-text-dark">
             {{ .title | markdownify }}
           </h1>
-          <p class="mb-12 text-lg lg:text-xl text-white drop-shadow-md">
+          <p class="mb-6 text-lg lg:text-xl text-text dark:text-darkmode-text">
             {{ .content | markdownify }}
           </p>
           {{ with .button }}
@@ -33,6 +33,17 @@
           {{ end }}
         </div>
       </div>
+      
+      <!-- Image Section (2/3) -->
+      <div class="relative overflow-hidden w-full" style="height: 60%;">
+        {{ if $bannerImage }}
+          <img 
+            src="{{ $bannerImage.RelPermalink }}" 
+            alt="{{ .title }}"
+            class="w-full h-full object-cover"
+          />
+        {{ end }}
+      </div>
     </section>
   {{ end }}
   <!-- /Banner -->
@@ -48,7 +59,7 @@
     {{ end }}
     <section class="section-sm py-14 py-24 md:py-32 lg:py-40 bg-cover bg-center bg-no-repeat relative" {{ if $featureImage }}style="background-image: url('{{ $featureImage.RelPermalink }}');"{{ end }}>
       {{ if $featureImage }}
-        <div class="absolute inset-0 bg-white/30 dark:bg-darkmode-body/70"></div>
+        <div class="absolute inset-0 bg-white/10 dark:bg-darkmode-body/70"></div>
       {{ end }}
       <div class="container relative z-10">
         <div class="row items-center justify-between">
