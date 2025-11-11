@@ -62,11 +62,27 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
+keywords = [
+    "Lumirax", 
+    "Lumirax Tech", 
+    "Non-destructive testing", 
+    "Industrial inspection", 
+    "Aerospace maintenance", 
+    "Composite material inspection", 
+    "Carbon fiber detection", 
+    "AI radar imaging", 
+    "Smart sensing", 
+    "Material analysis", 
+    "High-precision imaging", 
+    "Portable radar scanner", 
+    "Medical imaging", 
+    "Smart manufacturing", 
+    "Industrial AI",
+]
+description = "探索 Lumirax 的創新科技，體驗次世代的智慧感測解決方案。我們的產品與服務廣泛應用於 工業檢測、醫療照護與大眾安全 等領域，協助企業提升效率、精度與品質，邁向智慧化與永續發展的新時代。"
 author = "Lumirax Tech."
 # twitter = "zeon_studio"
-image = "images/og-image.png"
+image = "images/logo3.png"
 
 
 # site verifications
