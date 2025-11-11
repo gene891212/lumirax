@@ -1,5 +1,5 @@
 ---
-title: "Blog Posts"
+title: "最新消息"
 meta_title: ""
-description: "this is meta description"
+description: "Lumirax Tech | 最新消息"
 ---

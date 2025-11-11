@@ -36,7 +36,6 @@ disableAliases = false
 pagerSize = 10
 path = 'page'
 
-
 ############################# Build ##############################
 [build]
 [build.buildStats]

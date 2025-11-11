@@ -1,6 +1,6 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon.png"
+favicon = "images/favicon2.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 logo = "images/logo.png"
 logo_darkmode = "images/logo-darkmode.png"
@@ -82,7 +82,7 @@ keywords = [
 description = "探索 Lumirax 的創新科技，體驗次世代的智慧感測解決方案。我們的產品與服務廣泛應用於 工業檢測、醫療照護與大眾安全 等領域，協助企業提升效率、精度與品質，邁向智慧化與永續發展的新時代。"
 author = "Lumirax Tech."
 # twitter = "zeon_studio"
-image = "images/logo3.png"
+image = "images/logo4.png"
 
 
 # site verifications
