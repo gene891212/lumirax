@@ -57,7 +57,7 @@
         {{ $featureImage = resources.Get . }}
       {{ end }}
     {{ end }}
-    <section class="section-sm py-14 py-24 md:py-32 lg:py-40 bg-cover bg-center bg-no-repeat relative" {{ if $featureImage }}style="background-image: url('{{ $featureImage.RelPermalink }}');"{{ end }}>
+    <section class="section-sm py-14 py-24 md:py-32 lg:py-80 bg-cover bg-center bg-no-repeat relative" {{ if $featureImage }}style="background-image: url('{{ $featureImage.RelPermalink }}');"{{ end }}>
       {{ if $featureImage }}
         <div class="absolute inset-0 bg-white/10 dark:bg-darkmode-body/70"></div>
       {{ end }}
