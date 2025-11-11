@@ -6,7 +6,7 @@ date: 2025-11-11T03:00:00Z
 image: "/images/news/reward.jpg"
 categories: ["公司"]
 author: "Terry Huang"
-tags: [""]
+tags: ["洸研科技"]
 draft: false
 ---
 
