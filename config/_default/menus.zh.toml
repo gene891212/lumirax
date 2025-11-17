@@ -13,27 +13,27 @@ weight = 2
 
 [[main]]
 name = "SpectraSense技術"
-url = "/news"
+url = "/spectra-sense"
 weight = 3
 
 [[main]]
 name = "InsightModel技術"
-url = "/news"
+url = "/insight-model"
 weight = 4
 
 [[main]]
 name = "產品"
-url = "/news"
+url = "/404"
 weight = 5
 
 [[main]]
 name = "解決方案"
-url = "/news"
+url = "/404"
 weight = 6
 
 [[main]]
 name = "關於我們"
-url = "/about"
+url = "/404"
 weight = 7
 
 
@@ -46,13 +46,13 @@ hasChildren = true
 [[footer]]
 name = "SpectraSense"
 parent = "技術"
-url = "/spectrasense"
+url = "/spectra-sense"
 weight = 1
 
 [[footer]]
 name = "InsightModel"
 parent = "技術"
-url = "/insightmodel"
+url = "/insight-model"
 weight = 2
 
 [[footer]]
@@ -63,25 +63,25 @@ hasChildren = true
 [[footer]]
 name = "SpectraSense Ultra"
 parent = "產品"
-url = "/spectrasense-ultra"
+url = "/404"
 weight = 1
 
 [[footer]]
 name = "SpectraSense Pro"
 parent = "產品"
-url = "/spectrasense-pro"
+url = "/404"
 weight = 2
 
 [[footer]]
 name = "SpectraSense Lite"
 parent = "產品"
-url = "/spectrasense-lite"
+url = "/404"
 weight = 3
 
 [[footer]]
 name = "InsightHub"
 parent = "產品"
-url = "/insighthub"
+url = "/404"
 weight = 4
 
 [[footer]]
@@ -92,7 +92,7 @@ hasChildren = true
 [[footer]]
 name = "工業檢測"
 parent = "解決方案"
-url = "/industrial-inspection"
+url = "/404"
 weight = 1
 
 [[footer]]
@@ -103,7 +103,7 @@ hasChildren = true
 [[footer]]
 name = "關於我們"
 parent = "關於洸研"
-url = "/about"
+url = "/404"
 weight = 1
 
 [[footer]]
@@ -115,17 +115,17 @@ weight = 2
 [[footer]]
 name = "隱私權政策"
 parent = "關於洸研"
-url = "/privacy-policy"
+url = "/404"
 weight = 3
 
 [[footer]]
 name = "人才招募"
 parent = "關於洸研"
-url = "/careers"
+url = "/404"
 weight = 4
 
 [[footer]]
 name = "聯絡我們"
 parent = "關於洸研"
-url = "/contact"
+url = "/404"
 weight = 5

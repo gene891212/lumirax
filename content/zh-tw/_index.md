@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "了解更多"
-    link: "https://github.com/zeon-studio/hugoplate"
+    link: "/spectra-sense"
 
 # Features
 features:
@@ -24,7 +24,7 @@ features:
     button:
       enable: true
       label: "了解更多"
-      link: "#"
+      link: "/insight-model"
 
   # - title: "Discover the Key Features Of Hugo"
   #   image: "/images/gallery/01.jpg"
