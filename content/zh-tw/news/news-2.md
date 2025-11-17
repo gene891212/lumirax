@@ -5,7 +5,7 @@ description: "榮獲 2025 國科會「科研創業計畫」補助"
 date: 2025-11-11T02:00:00Z
 image: "/images/news/reward2.jpg"
 categories: ["公司"]
-author: "Terry Huang"
+author: "Terry"
 tags: ["國科會科研創業計畫"]
 draft: false
 ---

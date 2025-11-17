@@ -5,7 +5,7 @@ description: "看穿表面，抵達核心：洸研科技的誕生"
 date: 2025-11-11T03:00:00Z
 image: "/images/news/reward.jpg"
 categories: ["公司"]
-author: "Terry Huang"
+author: "Terry"
 tags: ["洸研科技"]
 draft: false
 ---

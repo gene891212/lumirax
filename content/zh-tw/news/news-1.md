@@ -5,7 +5,7 @@ description: "榮獲 2024 國科會 FITI 創業傑出獎"
 date: 2025-11-11T00:00:00Z
 image: "/images/news/fiti-reward.jpg"
 categories: ["公司"]
-author: "Terry Huang"
+author: "Terry"
 tags: ["FITI 創新創業激勵計畫"]
 draft: false
 ---
