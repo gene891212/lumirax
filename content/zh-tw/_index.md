@@ -3,7 +3,7 @@
 banner:
   title: "SpectraSense"
   content: "精準透視、秒速掃描<br/>還原最真實的「表面+透視」結構，看見不可見的真實"
-  image: "/images/wave_transparent_v2.png"
+  image: "/images/s_wave_transparent_v2.png"
   button:
     enable: true
     label: "了解更多"
